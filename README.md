@@ -12,10 +12,7 @@ This is the backend service which runs along with EGEM and tracks the network st
 
 ## Installation
 ```bash
-apt-get install npm
-sudo npm install -g pm2
-npm install
-ln -s /usr/bin/nodejs /usr/bin/node
+apt-get install npm -y && sudo npm install -g pm2 && npm install && ln -s /usr/bin/nodejs /usr/bin/node
 ```
 ## Configuration
 
