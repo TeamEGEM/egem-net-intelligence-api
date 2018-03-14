@@ -12,8 +12,10 @@ This is the backend service which runs along with EGEM and tracks the network st
 
 ## Installation
 ```bash
+apt-get install npm
 sudo npm install -g pm2
 npm install
+ln -s /usr/bin/nodejs /usr/bin/node
 ```
 ## Configuration
 
@@ -39,8 +41,7 @@ Configure the app modifying [processes.json](/egem-net-intelligence-api/blob/mas
 Run it using pm2:
 
 ```bash
-cd ~/bin
-pm2 start processes.json
+pm2 start app.json
 ```
 
 ## Updating
