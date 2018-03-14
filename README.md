@@ -16,7 +16,7 @@ apt-get install npm -y && sudo npm install -g pm2 && npm install && ln -s /usr/b
 ```
 ## Configuration
 
-Configure the app modifying [processes.json](/egem-net-intelligence-api/blob/master/processes.json). Note that you have to modify the backup processes.json file located in `./bin/processes.json` (to allow you to set your env vars without being rewritten when updating).
+Configure the app modifying [app.json](/egem-net-intelligence-api/app.json). 
 
 ```json
 "env":
