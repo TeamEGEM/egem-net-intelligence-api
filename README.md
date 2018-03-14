@@ -1,6 +1,5 @@
 EGEM Network Intelligence API
 ============
-[![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
 This is the backend service which runs along with EGEM and tracks the network status, fetches information through JSON-RPC and connects through WebSockets to [egem-netstats](https://github.com/TeamEGEM/egem-netstats) to feed information.
 
