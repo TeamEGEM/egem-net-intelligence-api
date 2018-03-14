@@ -10,18 +10,11 @@ This is the backend service which runs along with EGEM and tracks the network st
 * npm
 
 
-## Installation on an Ubuntu EC2 Instance
-
-Fetch and run the build shell. This will install everything you need: latest ethereum - CLI from develop branch (you can choose between eth or geth), node.js, npm & pm2.
-
+## Installation
 ```bash
-bash <(curl https://raw.githubusercontent.com/cubedro/eth-net-intelligence-api/master/bin/build.sh)
+sudo npm install -g pm2
+npm install
 ```
-## Installation as docker container (optional)
-
-There is a `Dockerfile` in the root directory of the repository. Please read through the header of said file for
-instructions on how to build/run/setup. Configuration instructions below still apply.
-
 ## Configuration
 
 Configure the app modifying [processes.json](/egem-net-intelligence-api/blob/master/processes.json). Note that you have to modify the backup processes.json file located in `./bin/processes.json` (to allow you to set your env vars without being rewritten when updating).
