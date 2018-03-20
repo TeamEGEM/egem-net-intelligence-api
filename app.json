@@ -16,7 +16,7 @@
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "",
       "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "http://network.egem.io/",
+      "WS_SERVER"       : "https://network.egem.io/",
       "WS_SECRET"       : "Please contact EGEM staff - will be made public in future",
       "VERBOSITY"       : 2
     }
