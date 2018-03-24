@@ -24,7 +24,7 @@ Configure the app modifying [app.json](/app.json).
 		"NODE_ENV"        : "production", // tell the client we're in production environment
 		"RPC_HOST"        : "localhost", // eth JSON-RPC host
 		"RPC_PORT"        : "8545", // eth JSON-RPC port
-		"LISTENING_PORT"  : "30303", // eth listening port (only used for display)
+		"LISTENING_PORT"  : "30666", // eth listening port (only used for display)
 		"INSTANCE_NAME"   : "", // whatever you wish to name your node
 		"CONTACT_DETAILS" : "", // add your contact details here if you wish (email/skype)
 		"WS_SERVER"       : "http://network.egem.io/", // path to egem-netstats WebSockets api server
