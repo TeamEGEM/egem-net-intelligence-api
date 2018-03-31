@@ -17,7 +17,7 @@
       "INSTANCE_NAME"   : "",
       "CONTACT_DETAILS" : "",
       "WS_SERVER"       : "https://network.egem.io/",
-      "WS_SECRET"       : "EGEM_NETWORK",
+      "WS_SECRET"       : "EGEM_NETWORK_MAINNET",
       "VERBOSITY"       : 2
     }
   }
